@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FilmListesi.swift
 //  Film Muzesi
 //
 //  Created by apple on 28.12.2019.
@@ -8,13 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FilmListesi: UIViewController {
 
+    
+    var secilenKategroriAdi : String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        
     }
+    
 
 
 }
-

@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		18C0DF2223B7622F00931A71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0DF2123B7622F00931A71 /* AppDelegate.swift */; };
-		18C0DF2423B7622F00931A71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0DF2323B7622F00931A71 /* SceneDelegate.swift */; };
-		18C0DF2623B7622F00931A71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0DF2523B7622F00931A71 /* ViewController.swift */; };
+		18C0DF2623B7622F00931A71 /* KategorilerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0DF2523B7622F00931A71 /* KategorilerVC.swift */; };
 		18C0DF2923B7622F00931A71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C0DF2723B7622F00931A71 /* Main.storyboard */; };
 		18C0DF2B23B7623100931A71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C0DF2A23B7623100931A71 /* Assets.xcassets */; };
 		18C0DF2E23B7623100931A71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C0DF2C23B7623100931A71 /* LaunchScreen.storyboard */; };
+		18C0DF3923B7629400931A71 /* FilmKategori.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0DF3823B7629400931A71 /* FilmKategori.swift */; };
+		18C0DF3B23B762B900931A71 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0DF3A23B762B900931A71 /* Film.swift */; };
+		18C0DF3D23B762F500931A71 /* VeriSeti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0DF3C23B762F500931A71 /* VeriSeti.swift */; };
+		18C0DF3F23B767DF00931A71 /* KategoriCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0DF3E23B767DF00931A71 /* KategoriCell.swift */; };
+		18C0DF4123B772B800931A71 /* FilmListesi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0DF4023B772B800931A71 /* FilmListesi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18C0DF1E23B7622F00931A71 /* Film Muzesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Film Muzesi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C0DF2123B7622F00931A71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18C0DF2323B7622F00931A71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18C0DF2523B7622F00931A71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18C0DF2523B7622F00931A71 /* KategorilerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorilerVC.swift; sourceTree = "<group>"; };
 		18C0DF2823B7622F00931A71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18C0DF2A23B7623100931A71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C0DF2D23B7623100931A71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C0DF2F23B7623100931A71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C0DF3823B7629400931A71 /* FilmKategori.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmKategori.swift; sourceTree = "<group>"; };
+		18C0DF3A23B762B900931A71 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		18C0DF3C23B762F500931A71 /* VeriSeti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeriSeti.swift; sourceTree = "<group>"; };
+		18C0DF3E23B767DF00931A71 /* KategoriCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriCell.swift; sourceTree = "<group>"; };
+		18C0DF4023B772B800931A71 /* FilmListesi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListesi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,43 @@
 		18C0DF2023B7622F00931A71 /* Film Muzesi */ = {
 			isa = PBXGroup;
 			children = (
+				18C0DF3723B7628000931A71 /* Model */,
+				18C0DF3623B7627900931A71 /* View */,
+				18C0DF3523B7626D00931A71 /* Controller */,
 				18C0DF2123B7622F00931A71 /* AppDelegate.swift */,
-				18C0DF2323B7622F00931A71 /* SceneDelegate.swift */,
-				18C0DF2523B7622F00931A71 /* ViewController.swift */,
 				18C0DF2723B7622F00931A71 /* Main.storyboard */,
 				18C0DF2A23B7623100931A71 /* Assets.xcassets */,
 				18C0DF2C23B7623100931A71 /* LaunchScreen.storyboard */,
 				18C0DF2F23B7623100931A71 /* Info.plist */,
 			);
 			path = "Film Muzesi";
+			sourceTree = "<group>";
+		};
+		18C0DF3523B7626D00931A71 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18C0DF2523B7622F00931A71 /* KategorilerVC.swift */,
+				18C0DF4023B772B800931A71 /* FilmListesi.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18C0DF3623B7627900931A71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18C0DF3E23B767DF00931A71 /* KategoriCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18C0DF3723B7628000931A71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18C0DF3823B7629400931A71 /* FilmKategori.swift */,
+				18C0DF3A23B762B900931A71 /* Film.swift */,
+				18C0DF3C23B762F500931A71 /* VeriSeti.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C0DF2623B7622F00931A71 /* ViewController.swift in Sources */,
+				18C0DF4123B772B800931A71 /* FilmListesi.swift in Sources */,
+				18C0DF3D23B762F500931A71 /* VeriSeti.swift in Sources */,
+				18C0DF3F23B767DF00931A71 /* KategoriCell.swift in Sources */,
+				18C0DF3B23B762B900931A71 /* Film.swift in Sources */,
+				18C0DF2623B7622F00931A71 /* KategorilerVC.swift in Sources */,
 				18C0DF2223B7622F00931A71 /* AppDelegate.swift in Sources */,
-				18C0DF2423B7622F00931A71 /* SceneDelegate.swift in Sources */,
+				18C0DF3923B7629400931A71 /* FilmKategori.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +256,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +327,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X95GJ3C4XU;
 				INFOPLIST_FILE = "Film Muzesi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +346,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X95GJ3C4XU;
 				INFOPLIST_FILE = "Film Muzesi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
